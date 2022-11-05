@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run 5, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run "def printChar(c: Int) = putchar(c);def functionCompose(f: Int => Int, g: Int => Int) = (x: Int) => f(g(x)); def plus(x: Int, y: Int) = x + y; def succ(x: Int) = x + 1; def twice(x: Int) = x + x; printChar(functionCompose(succ,twice)(39)); printChar(functionCompose(succ,succ)(73)); printChar(functionCompose(twice,succ)(4)); 0", None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
 [0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
@@ -23,5 +23,5 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
 [0m[[0m[31merror[0m] [0m[0m(Compile / [31mbgRun[0m) No main class detected.[0m
-[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 5, 2022 12:15:10 PM[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Nov 5, 2022 7:10:26 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
