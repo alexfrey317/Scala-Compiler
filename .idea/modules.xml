@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/compiler/.idea/modules/CMScala-compiler.iml" filepath="$PROJECT_DIR$/compiler/.idea/modules/CMScala-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler/.idea/modules/CMScala-compiler-build.iml" filepath="$PROJECT_DIR$/compiler/.idea/modules/CMScala-compiler-build.iml" />
+    </modules>
+  </component>
+</project>

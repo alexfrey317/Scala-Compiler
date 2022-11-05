@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="$USER_HOME$/.cache/coursier/arc/https/github.com/adoptium/temurin8-binaries/releases/download/jdk8u345-b01/OpenJDK8U-jdk_x64_linux_hotspot_8u345b01.tar.gz/jdk8u345-b01" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="converterVersion" value="1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/compiler" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/compiler" />
+            <option value="$PROJECT_DIR$/compiler/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>
