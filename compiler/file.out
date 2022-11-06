@@ -1,0 +1,12 @@
+testing
+valp v_2840 = block-tag(i_2846);
+valp tag_79 = id(v_2840);
+defc tc_435() = { vall i_2848 = true; ic_55(i_2848) };
+defc fc_436() = {
+  defc tc_436() = { vall i_2849 = true; ic_55(i_2849) };
+  defc fc_435() = { vall i_2850 = false; ic_55(i_2850) };
+  vall i_2851 = 3;
+  if (tag_79 == i_2851) tc_436 else fc_435
+};
+vall i_2852 = 2;
+if (tag_79 == i_2852) tc_435 else fc_436
