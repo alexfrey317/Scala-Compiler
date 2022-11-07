@@ -1,0 +1,1 @@
+scalac -bootclasspath /home/alexfrey/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar -deprecation -feature -unchecked -classpath /home/alexfrey/Projects/CS352/proj6/compiler/target/scala-2.12/classes /home/alexfrey/Projects/CS352/proj6/compiler/src/miniscala/CPSOptimizer.scala

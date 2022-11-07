@@ -1,0 +1,46 @@
+exit
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/alexfrey/.local/share/JetBrains/IntelliJIdea2022.1/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+run 5
+run 5 + 5
+run 'a' + 'b'
+run if ('a' > 'b') 5 else 4
+run "if ('a' > 'b') 5 else 4"
+run "if (4 > 'b') 5 else 4"
+run "if ('a' > '34) 5 else 4"
+run "if ('a' > 34) 5 else 4"
+run "if ('a' == 'b') 5 else 4
+run "if ('a' == 'b') 5 else 4"
+run "'a' >> 4"
+run "if ('a' != 'b') 5 else 4"
+run "if (true == true) 5 else 4"
+run "if (false == true) 5 else 4"
+run "
+      def f(x: Int) = if (x > 0) g(x) else x;
+      def g(x: Int): Int = f(x - 1);
+      putchar('O'.toInt);
+      if (f(5) == 0) putchar('K'.toInt) else putchar('O'.toInt)
+    "
+run "def f(x: Int) = if (x > 0) g(x) else x; def g(x: Int): Int = f(x - 1); 0"
+run "def f(x: Int) = if (x > 0) g(x) else x; def g(x: Int): Int = f(x - 1); f(5)"
+run "def printChar(c: Int) = putchar(c);def functionCompose(f: Int => Int, g: Int => Int) = (x: Int) => f(g(x)); def plus(x: Int, y: Int) = x + y; def succ(x: Int) = x + 1; def twice(x: Int) = x + x; printChar(functionCompose(succ,twice)(39)); printChar(functionCompose(succ,succ)(73)); printChar(functionCompose(twice,succ)(4)); 0"
+run "def printChar(c: Int) = putchar(c);def functionCompose(f: Int => Int, g: Int => Int) = (x: Int) => f(g(x)); def plus(x: Int, y: Int) = x + y; def succ(x: Int) = x + 1; def twice(x: Int) = x + x; printChar(functionCompose(succ,twice)(39));"
+run "def printChar(c: Int) = putchar(c);def functionCompose(f: Int => Int, g: Int => Int) = (x: Int) => f(g(x)); def plus(x: Int, y: Int) = x + y; def succ(x: Int) = x + 1; def twice(x: Int) = x + x; printChar(functionCompose(succ,twice)(39));0"
+run "def f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0"
+test
+run "val one = 1; def f(x: Int) = x + one; f(1) + f(2) + f(3) + one"
+run "val one = 1; def f(x: Int) = x + one; putchar(f(1) + f(2) + f(3) + one)"
+run "val one = 1; def f(x: Int) = x + one; putchar(f(1) + f(2) + f(3) + one); 0"
+run "val u = 1; 0"
+run "
+      def f(x: Int) = if (x > 0) g(x) else x;
+      def g(x: Int): Int = f(x - 1);
+      putchar('O'.toInt);
+      if (f(5) == 0) putchar('K'.toInt) else putchar('O'.toInt)
+run "def f(x: Int) = if (x > 0) g(x) else x;def g(x: Int): Int = f(x - 1); putchar('O'.toInt); if (f(5) == 0) putchar('K'.toInt) else putchar('O'.toInt); 0"
+run "def f(x: Int) = if (x > 0) g(x) else x;def g(x: Int): Int = f(x - 1); putchar('O'.toInt); if (f(5) == 0) putchar('K'.toInt) else putchar('O'.toInt); 0"~testadfasdfa
+~test
+run "def f(x: Int) = f(x); f(5); 0" 
+run "def f(x: Int): Int = f(x); f(5); 0" 
+run "5"
+test
+run "def f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0"

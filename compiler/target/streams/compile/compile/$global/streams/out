@@ -1,0 +1,16 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/alexfrey/Projects/CS352/proj6/compiler/src/miniscala/CPSOptimizer.scala:113:36: abstract type pattern CPSOptimizer.this.treeModule.Literal is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case LetL(name: Name, value: Literal, body: Tree) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/alexfrey/Projects/CS352/proj6/compiler/src/miniscala/CPSOptimizer.scala:129:35: abstract type pattern CPSOptimizer.this.treeModule.ValuePrimitive is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case LetP(name: Name, prim: ValuePrimitive, args: Seq[Name], body: Tree) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/alexfrey/Projects/CS352/proj6/compiler/src/miniscala/CPSOptimizer.scala:291:21: abstract type pattern CPSOptimizer.this.treeModule.TestPrimitive is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case If(cond: TestPrimitive, args: Seq[Name], thenC: Name, elseC: Name) => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/alexfrey/Projects/CS352/proj6/compiler/src/miniscala/CPSOptimizer.scala:90:13: method /: in trait TraversableOnce is deprecated (since 2.12.10): Use foldLeft instead of /:[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (this /: cnts) (_.withCnt(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/alexfrey/Projects/CS352/proj6/compiler/src/miniscala/CPSOptimizer.scala:98:13: method /: in trait TraversableOnce is deprecated (since 2.12.10): Use foldLeft instead of /:[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (this /: funs) (_.withFun(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

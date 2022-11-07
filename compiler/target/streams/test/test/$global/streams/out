@@ -1,0 +1,254 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Djava.security.manager, -Djava.security.policy=/home/alexfrey/Projects/CS352/proj6/compiler/project/tests.policy, -Xss32M, -Xms128M)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 2 initial tasks for 2 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(miniscala.test.CPSOptimizer_Blackbox, sbt.ForkMain$AnnotatedFingerscan@58c4afd7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibFunctions3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibFunctions3[0m finished, took 0.453 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestSideEffectingCondition[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestSideEffectingCondition[0m finished, took 0.009 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic3[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic4[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic4[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic5[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic5[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic6[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic6[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic7[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic7[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic8[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic8[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic9[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic9[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists10[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists10[0m finished, took 0.099 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists11[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists11[0m finished, took 0.048 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists12[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists12[0m finished, took 0.04 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists13[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists13[0m finished, took 0.034 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestConditional1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestConditional1[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestConditional2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestConditional2[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestConditional4[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestConditional4[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibStrings1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibStrings1[0m finished, took 0.026 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibStrings2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibStrings2[0m finished, took 0.023 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibStrings3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibStrings3[0m finished, took 0.115 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists1[0m finished, took 0.027 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists2[0m finished, took 0.018 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists3[0m finished, took 0.023 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists4[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists4[0m finished, took 0.022 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists5[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists5[0m finished, took 0.032 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists6[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists6[0m finished, took 0.03 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists7[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists7[0m finished, took 0.028 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists8[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists8[0m finished, took 0.036 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists9[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLibLists9[0m finished, took 0.027 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic1[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic2[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic3[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic4[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic4[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic5[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic5[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic6[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic6[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic7[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic7[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic8[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic8[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic9[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic9[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic10[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveArithmetic10[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks1[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks2[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks3[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks3[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks4[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks4[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks5[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks5[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks7[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveBlocks7[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic10[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic10[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic11[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic11[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic12[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic12[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic13[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic13[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic14[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic14[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic15[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic15[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic16[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic16[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic17[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic17[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic18[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic18[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic19[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic19[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic22[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic22[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic23[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic23[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic24[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic24[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic25[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLogic25[0m finished, took 0.018 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLog20[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLog20[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLog21[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestPrimitiveLog21[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLetrec[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestLetrec[0m finished, took 0.014 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestAppOrder[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Blackbox[0m.[36mtestAppOrder[0m finished, took 0.011 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 62 total, 1.358s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 62 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(miniscala.test.CPSOptimizer_Greybox, sbt.ForkMain$AnnotatedFingerscan@9513fa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingCharInt[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingCharInt[0m finished, took 0.013 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsDivOne[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsDivOne[0m finished, took 0.008 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningRecursiveTrick[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningRecursiveTrick[0m finished, took 0.007 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsRecursive3WithEtaReduction[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsRecursive3WithEtaReduction[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestInliningConstantFoldingDCE[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestInliningConstantFoldingDCE[0m finished, took 0.009 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantPropagationSimple[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantPropagationSimple[0m finished, took 0.007 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulZero1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulZero1[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulZero2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulZero2[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInlining[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInlining[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingDiv[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingDiv[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingMod[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingMod[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestCommonSubexpressionEliminationSimpleBlockTag[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestCommonSubexpressionEliminationSimpleBlockTag[0m finished, took 0.012 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingBooleanAnd[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingBooleanAnd[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestEtaReductionInfintelyRecursiveFunction[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[31mtestEtaReductionInfintelyRecursiveFunction[0m failed: assertion failed: Checks failed for: [0m
+[0m[[0m[31merror[0m] [0m[0mdef f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0[0m
+[0m[[0m[31merror[0m] [0m[0mStatistics:[0m
+[0m[[0m[31merror[0m] [0m[0mInstruction Stats[0m
+[0m[[0m[31merror[0m] [0m[0m=================[0m
+[0m[[0m[31merror[0m] [0m[0m       5  LetL[0m
+[0m[[0m[31merror[0m] [0m[0m       4  LetP[0m
+[0m[[0m[31merror[0m] [0m[0m       3  LetC[0m
+[0m[[0m[31merror[0m] [0m[0m       1  LetF[0m
+[0m[[0m[31merror[0m] [0m[0m       1  AppC[0m
+[0m[[0m[31merror[0m] [0m[0m       1  If[0m
+[0m[[0m[31merror[0m] [0m[0m       1  Halt[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mValue Primitives Stats[0m
+[0m[[0m[31merror[0m] [0m[0m======================[0m
+[0m[[0m[31merror[0m] [0m[0m       1  CPSOr$[0m
+[0m[[0m[31merror[0m] [0m[0m       1  CPSByteRead$[0m
+[0m[[0m[31merror[0m] [0m[0m       1  CPSArithShiftR$[0m
+[0m[[0m[31merror[0m] [0m[0m       1  CPSArithShiftL$[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mLogic Primitives Stats[0m
+[0m[[0m[31merror[0m] [0m[0m======================[0m
+[0m[[0m[31merror[0m] [0m[0m       1  CPSEq$[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFunctions defined: 2[0m
+[0m[[0m[31merror[0m] [0m[0mContinuations defined: 3[0m
+[0m[[0m[31merror[0m] [0m[0m, took 0.016 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestEtaReductionInfintelyRecursiveFunction[0m finished, took 0.017 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingIntChar[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingIntChar[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingIntPNot[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingIntPNot[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldDCEContinuations[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldDCEContinuations[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingIntP[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingIntP[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingPlus[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingPlus[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningInsideFunctionBodyDifferentLetRecs[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningInsideFunctionBodyDifferentLetRecs[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInlingAndDCE[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInlingAndDCE[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingTypePrims[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingTypePrims[0m finished, took 0.021 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsRecursive1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsRecursive1[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsRecursive2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsRecursive2[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantCapturingInFunction1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantCapturingInFunction1[0m finished, took 0.008 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantCapturingInFunction2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantCapturingInFunction2[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsSubItself[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsSubItself[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingMinus[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingMinus[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingTimes[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingTimes[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsAddZero1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsAddZero1[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsAddZero2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsAddZero2[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestCommonSubexpressionEliminationComplexBlockTag[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestCommonSubexpressionEliminationComplexBlockTag[0m finished, took 0.011 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCELetPrimitive[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCELetPrimitive[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulOne1[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulOne1[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulOne2[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsMulOne2[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestEtaReduction[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestEtaReduction[0m finished, took 0.006 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCELetLiteral[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCELetLiteral[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsSimple[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestDCEFunsSimple[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningInsideFunctionBodySameLetRec[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningInsideFunctionBodySameLetRec[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingBooleanOr[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestConstantFoldingBooleanOr[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningCrasher[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestFunInliningCrasher[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsSubZero[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest miniscala.test.[33mCPSOptimizer_Greybox[0m.[36mtestNeutralElementsSubZero[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 42 total, 0.242s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 42 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 104, Failed 1, Errors 0, Passed 103[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	miniscala.test.CPSOptimizer_Blackbox[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	miniscala.test.CPSOptimizer_Greybox[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
