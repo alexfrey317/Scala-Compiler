@@ -44,3 +44,10 @@ run "def f(x: Int): Int = f(x); f(5); 0"
 run "5"
 test
 run "def f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0"
+test
+run "val u = 1; 0"
+run "def f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0"
+run "def adder(amount: Int): Int => Int = (in: Int) => in + amount; val increment = adder(1); 0 * increment(4 + 1)"
+run "def adder(amount: Int): Int => Int = (in: Int) => in + amount; val increment = adder(1); increment(4 + 1)"
+run "def adder(amount: Int): Int => Int = (in: Int) => in + amount; val increment = adder(1); putchar(increment(4 + 1)); 0"
+run "def f(x: Int): Int = g(x); def g(x: Int): Int = f(x); if (getchar() == -1) g(3) else 0"

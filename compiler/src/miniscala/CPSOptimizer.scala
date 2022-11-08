@@ -230,17 +230,17 @@ abstract class CPSOptimizer[T <: CPSTreeModule {type Name = Symbol}]
         //Dead Code
         val liveCnts = cnts filter {
           cnt => !state.dead(cnt.name)
-        } map { case CntDef(name, args, body) =>
-          CntDef(name, args, shrinkT(body)(state.withEmptyInvEnvs))
         }
         val inlineCnts = liveCnts filter (cnt => state.appliedOnce(cnt.name))
-
+        val nCnts = liveCnts map { case CntDef(name, args, body) =>
+          CntDef(name, args, shrinkT(body)(state.withEmptyInvEnvs.withCnts(inlineCnts)))
+        }
 
         //Check for any continuations
-        if (liveCnts.isEmpty) {
+        if (nCnts.isEmpty) {
           shrinkT(body)
         } else {
-          LetC(liveCnts, shrinkT(body)(state.withCnts(inlineCnts)))
+          LetC(nCnts, shrinkT(body)(state.withCnts(inlineCnts)))
         }
       }
 
@@ -248,17 +248,18 @@ abstract class CPSOptimizer[T <: CPSTreeModule {type Name = Symbol}]
         //Dead Code
         val liveFuns = funs filter {
           fun => !state.dead(fun.name)
-        } map { case FunDef(name, retC, args, body) =>
-          FunDef(name, retC, args, shrinkT(body)(state.withEmptyInvEnvs))
+        }
+        val inlineFuns = liveFuns filter (fun => state.appliedOnce(fun.name))
+        val nFuns = liveFuns map { case FunDef(name, retC, args, body) =>
+          FunDef(name, retC, args, shrinkT(body)(state.withEmptyInvEnvs.withFuns(inlineFuns)))
         }
 
-        val inlineFuns = liveFuns filter (fun => state.appliedOnce(fun.name))
 
         //Check for any functions
-        if (liveFuns.isEmpty) {
+        if (nFuns.isEmpty) {
           shrinkT(body)
         } else {
-          LetF(liveFuns, shrinkT(body)(state.withFuns(inlineFuns)))
+          LetF(nFuns, shrinkT(body)(state.withFuns(inlineFuns)))
         }
       }
 
@@ -331,16 +332,30 @@ abstract class CPSOptimizer[T <: CPSTreeModule {type Name = Symbol}]
       def inlineT(tree: Tree)(implicit state: State): Tree = tree match {
         case LetC(cnts: Seq[CntDef], body: Tree) => {
           //Calculate new continuations and those to inline
-          val inlineCnts = cnts filter { cnt => size(cnt.body) <= cntLimit }
+          val inlineCnts = cnts filter { cnt =>
+            size(cnt.body) <= cntLimit
+          }
 
-          LetC(cnts, inlineT(body)(state.withCnts(inlineCnts)))
+          //Check for no continuations
+          if (cnts.isEmpty) {
+            inlineT(body)(state.withCnts(inlineCnts))
+          } else {
+            LetC(cnts, inlineT(body)(state.withCnts(inlineCnts)))
+          }
         }
 
         case LetF(funs: Seq[FunDef], body: Tree) => {
           //Calculate new functions and those to inline
-          val inlineFuns = funs filter { fun => size(fun.body) <= funLimit }
+          val inlineFuns = funs filter { fun =>
+            size(fun.body) <= funLimit
+          }
 
-          LetF(funs, inlineT(body)(state.withFuns(inlineFuns)))
+          //Check for no funs
+          if (funs.isEmpty) {
+            inlineT(body)(state.withFuns(inlineFuns))
+          } else {
+            LetF(funs, inlineT(body)(state.withFuns(inlineFuns)))
+          }
         }
 
         case AppC(name, args) => {

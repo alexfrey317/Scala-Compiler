@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="pop-os" name="miniscala.test.CPSOptimizer_Blackbox" tests="62" errors="0" failures="0" skipped="0" time="1.281" timestamp="2022-11-07T13:28:25">
+<testsuite hostname="pop-os" name="miniscala.test.CPSOptimizer_Blackbox" tests="62" errors="0" failures="0" skipped="0" time="1.386" timestamp="2022-11-07T22:17:11">
                      <properties>
-      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/alexfrey/.cache/sbt/boot/sbt-launch/1.7.2/sbt-launch-1.7.2.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-07-19"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
-"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/><property name="user.name" value="alexfrey"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-1620545950/jna11482425026051223479.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.16"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/alexfrey/.sbt/1.0/java9-rt-ext-ubuntu_11_0_16"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/alexfrey/.cache/sbt/boot/sbt-launch/1.7.2/sbt-launch-1.7.2.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/New_York"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/alexfrey"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.17.5-76051705-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/lib32:/lib/i386-linux-gnu/sse2:/usr/lib/x86_64-linux-gnu/pipewire-0.3/jack:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/alexfrey/Projects/CS352/proj6/compiler"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/><property name="java.class.version" value="55.0"/>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/lib32:/lib/i386-linux-gnu/sse2:/usr/lib/x86_64-linux-gnu/pipewire-0.3/jack:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/amd64"/><property name="java.vm.version" value="25.352-b08"/><property name="java.vm.vendor" value="Amazon.com Inc."/><property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/alexfrey/Projects/CS352/proj6/compiler"/><property name="java.runtime.version" value="1.8.0_352-b08"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-1620545950/jna1749219473042337819.tmp"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="5.17.5-76051705-generic"/><property name="user.home" value="/home/alexfrey"/><property name="user.timezone" value="America/New_York"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="idea.installation.dir" value="/home/alexfrey/Documents/IntelliJ"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/home/alexfrey/.local/share/JetBrains/IntelliJIdea2022.1/Scala/launcher/sbt-launch.jar"/><property name="user.name" value="alexfrey"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/home/alexfrey/.local/share/JetBrains/IntelliJIdea2022.1/Scala/launcher/sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;/tmp/idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 43285 ; idea-shell"/><property name="java.home" value="/home/alexfrey/.jdks/corretto-1.8.0_352/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_352"/><property name="java.ext.dirs" value="/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/resources.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/rt.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/sunrsasign.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/jsse.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/jce.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/charsets.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/lib/jfr.jar:/home/alexfrey/.jdks/corretto-1.8.0_352/jre/classes"/><property name="java.vendor" value="Amazon.com Inc."/><property name="java.specification.maintenance.version" value="4"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibFunctions3" time="0.453">
+                     <testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibFunctions3" time="0.533">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testSideEffectingCondition" time="0.009">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testSideEffectingCondition" time="0.011">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic3" time="0.006">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic3" time="0.005">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic4" time="0.005">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic5" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic6" time="0.004">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic6" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic7" time="0.004">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic7" time="0.005">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic8" time="0.004">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic8" time="0.005">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic9" time="0.005">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic9" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists10" time="0.099">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists10" time="0.122">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists11" time="0.048">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists11" time="0.044">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists12" time="0.04">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists12" time="0.048">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists13" time="0.034">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists13" time="0.039">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testConditional1" time="0.003">
                                                  
@@ -36,97 +36,97 @@
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testConditional4" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibStrings1" time="0.026">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibStrings1" time="0.023">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibStrings2" time="0.023">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibStrings2" time="0.021">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibStrings3" time="0.115">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibStrings3" time="0.097">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists1" time="0.027">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists1" time="0.028">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists2" time="0.018">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists2" time="0.015">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists3" time="0.023">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists3" time="0.029">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists4" time="0.022">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists4" time="0.024">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists5" time="0.032">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists6" time="0.03">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists6" time="0.025">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists7" time="0.028">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists7" time="0.027">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists8" time="0.036">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists8" time="0.027">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists9" time="0.027">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLibLists9" time="0.02">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic1" time="0.002">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic2" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic3" time="0.002">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic3" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic4" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic4" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic5" time="0.002">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic5" time="0.003">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic6" time="0.002">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic7" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic8" time="0.002">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic8" time="0.003">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic9" time="0.002">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveArithmetic10" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks1" time="0.005">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks1" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks2" time="0.005">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks2" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks3" time="0.005">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks3" time="0.003">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks4" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks5" time="0.004">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks5" time="0.005">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks7" time="0.005">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveBlocks7" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic10" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic10" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic11" time="0.004">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic11" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic12" time="0.004">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic12" time="0.002">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic13" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic14" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic14" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic15" time="0.005">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic15" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic16" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic16" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic17" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic17" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic18" time="0.006">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic18" time="0.004">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic19" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic19" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic22" time="0.003">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic22" time="0.002">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic23" time="0.006">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic23" time="0.005">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic24" time="0.006">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic24" time="0.005">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic25" time="0.018">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLogic25" time="0.012">
                                                  
                                                </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLog20" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLog21" time="0.002">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testPrimitiveLog21" time="0.003">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLetrec" time="0.014">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testLetrec" time="0.068">
                                                  
-                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testAppOrder" time="0.011">
+                                               </testcase><testcase classname="miniscala.test.CPSOptimizer_Blackbox" name="testAppOrder" time="0.012">
                                                  
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>
